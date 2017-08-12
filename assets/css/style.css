@@ -1,0 +1,81 @@
+
+body {
+ 
+
+  background-color: forestgreen;
+  color: black;
+
+}
+
+.btn {
+  font-weight: 200;
+  background-color: darkred;
+  color: #EDC9AF;
+}
+
+
+.jumbotron {
+  color: forestgreen;
+  background-color: #EDC9AF;
+  font-family: 'Luckiest Guy';
+  font-weight: 800px;
+}
+
+.jumbotron h1 span {
+  border-top: 5px solid darkred;
+  border-bottom: 5px solid darkred;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.jumbotron h1 {
+  margin-bottom: 30px;
+}
+
+.panel-danger {
+ 
+background-color: #EDC9AF;
+
+}
+
+.panel-danger>.panel-heading {
+  background-color: darkred;
+  color: #EDC9AF;
+
+  font-size: 35px;
+
+}
+
+.left p {
+  font-size: 20px;
+}
+
+
+
+#placeholder {
+
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: darkred;
+  font-size: 25px;
+  padding: 15px 5px;
+  margin: 10px 0;
+  border: 2px solid darkred;
+}
+
+#lettersGuessedSpace {
+  font-size: 23px;
+  letter-spacing: 5px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+#name {
+  font-variant: small-caps;
+font-size: 30px;
+}
+
+.footer {
+  font-weight: 500;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Hangman Game - Dan Testa</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+ </head>
+
+
+
+<body>
+
+
+  <div class="jumbotron text-center">
+    <h1><span>Zoo Animals Hangman!</span></h1>
+    
+    <h3 id="message"></h3>   
+    <button id="button" class="btn-lg btn btn-default">Start New Game</button>
+
+  </div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-6 col-sm-6 text-center">
+      <div class="panel panel-danger left">
+      <div class="panel-heading">Guess Zoo Animal Names!</div>
+      <div class="panel-body">
+        <p>This game has many different zoo animals to guess from. Anything from crocodiles to gorillas can be found here. Start your safari!</p> 
+        <p>Good Luck!</p>
+        
+        <div id="name"></div><br/>
+        <div id="animalGuesses"> </div>
+        
+
+      </div>    
+      </div>
+    </div>
+
+
+
+
+    <div class="col-xs-12 col-md-6 col-sm-6 text-center">
+      
+      <div class="panel panel-danger">
+      <div class="panel-heading">Start playing below!</div>
+    
+      <div class="panel-body">
+        <h4 class="winsLosses">Wins: <span id="wins"></span> / Losses: <span id="losses"></span></h4>
+
+
+        <div id="placeholder"></div>
+     
+        <h4>Guesses Remaining: <span id="guessesLeft"></span></h4>
+        
+        <h4>Guessed Letters So Far E (Get It Safari, bad joke...): </h4>
+        <div id="lettersGuessedSpace"></div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="row footer text-center">
+    Daniel Testa 2017<br/>
+  </div>
+</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
