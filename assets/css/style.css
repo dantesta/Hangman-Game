@@ -1,7 +1,7 @@
 
 body {
  
-
+background-image: url(../images/green2.gif);
   background-color: forestgreen;
   color: black;
 
@@ -13,12 +13,24 @@ body {
   color: #EDC9AF;
 }
 
+.animals {
+   max-width: 60px;
+}
+
+.triesRemaining {
+  color: red;
+}
+
 
 .jumbotron {
+
+
+  box-shadow: 10px;
   color: forestgreen;
   background-color: #EDC9AF;
   font-family: 'Luckiest Guy';
   font-weight: 800px;
+  border: 2px solid darkred;
 }
 
 .jumbotron h1 span {
@@ -26,9 +38,11 @@ body {
   border-bottom: 5px solid darkred;
   padding-bottom: 10px;
   padding-top: 20px;
+  width: 100%;
 }
 .jumbotron h1 {
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .panel-danger {
@@ -78,4 +92,11 @@ font-size: 30px;
 
 .footer {
   font-weight: 500;
+  color: darkred;
+  background-color: #EDC9AF;
+background-position: center;
+border: 2px solid darkred;
 }
+
+
+
